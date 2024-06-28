@@ -1,0 +1,40 @@
+.product_card {
+    background-color: inherit;
+    /* box-shadow: $card-shadow; */
+    padding-top: 1rem;
+    overflow: hidden;
+
+    img {
+        width: 50%;
+        max-width: 200px;
+    }
+
+    .rating {
+        /* color: $primary-color; */
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+        margin: 0.6rem 0;
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    .btn {
+        /* background-color: $primary-color; */
+        color: #ddd;
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0.6rem 0;
+        font-size: 1rem;
+        transition: all 0.2s ease;
+
+        /* &:hover,
+        &.added {
+            color: #fff;
+        } */
+    }
+}

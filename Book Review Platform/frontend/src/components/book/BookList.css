@@ -1,0 +1,139 @@
+.book-details-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .book-details {
+    text-align: center;
+  }
+  
+  .book-details h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .book-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .book-image img {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .book-description {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .book-description h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .book-description p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .book-actions {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .book-actions a,
+  .book-actions button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-actions a:hover,
+  .book-actions button:hover {
+    background-color: darkblue;
+  }
+  
+  .book-reviews,
+  .add-review-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .book-reviews {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .book-reviews h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .review-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .add-review-section {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .add-review-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .add-review-section form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .add-review-section form input,
+  .add-review-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-review-section form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-review-section form button:hover {
+    background-color: darkgreen;
+  }
+  

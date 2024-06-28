@@ -1,0 +1,36 @@
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .profile-heading {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-section-item {
+    margin-bottom: 10px;
+  }
+  
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .profile-link {
+    margin-right: 10px;
+  }
+  
+  .profile-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #af8c89;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
